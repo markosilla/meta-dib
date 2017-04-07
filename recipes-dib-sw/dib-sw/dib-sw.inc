@@ -8,6 +8,10 @@ INC_PR = "r0"
 #SRCREV = "ffffffffffffffffffffffffffffffffffffffff"
 #SRC_URI = "git://repo/emasill/tmp/dib-sw/.git;protocol=git;user=${USER};nobranch=1"
 
-BRANCH = "master"
-SRCREV = "1577c20c3e71da6438f44d0d39179e0f93a68f42"
-SRC_URI = "git://github.com/markosilla/dib-sw.git;protocol=git;branch=${BRANCH}"
+#BRANCH = "master"
+#SRCREV = "1577c20c3e71da6438f44d0d39179e0f93a68f42"
+#SRC_URI = "git://github.com/markosilla/dib-sw.git;protocol=git;branch=${BRANCH}"
+
+BRANCH = "dev"
+SRCREV = "8f39580c004eee3fe5bee284f10e72bb22d8de74"
+SRC_URI = "git:///repo/emasill/tmp/rcs-testbox/.git;protocol=file;nocheckout=1;branch=${BRANCH}"
