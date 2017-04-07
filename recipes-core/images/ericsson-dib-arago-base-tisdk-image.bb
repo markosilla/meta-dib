@@ -1,0 +1,21 @@
+DESCRIPTION = "Ericsson DIB development image"
+LICENSE = "ERICSSON"
+
+require recipes-core/images/arago-base-tisdk-image.bb
+
+COMPATIBLE_MACHINE = "omap3|omapl138|ti33x|ti43x|omap4|omap-a15|keystone"
+
+IMAGE_INSTALL += "\
+    packagegroup-arago-test \
+    packagegroup-arago-tisdk-addons \
+    packagegroup-arago-tisdk-connectivity \
+    packagegroup-arago-tisdk-crypto \
+    packagegroup-arago-tisdk-amsdk \
+    minicom \
+    ethtool \
+    i2c-tools \
+    console \
+    dib-sw \
+"
+
+export IMAGE_BASENAME = "ericsson-dib-arago-base-tisdk-image"
