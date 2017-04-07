@@ -4,10 +4,10 @@ INC_PR = "r0"
 # Increment first number when SRCREV is updated to newer version.
 # PR version can be reset to 0, when that is done.
 
-#PV = 0.001+git${SRCPV}"
+#PV = 0.002+git${SRCPV}"
 #SRCREV = "ffffffffffffffffffffffffffffffffffffffff"
 #SRC_URI = "git://repo/emasill/tmp/dib-sw/.git;protocol=git;user=${USER};nobranch=1"
 
 BRANCH = "master"
-SRCREV = "c527c585271be593659d334de2e4733c4631d497"
+SRCREV = "1577c20c3e71da6438f44d0d39179e0f93a68f42"
 SRC_URI = "git://github.com/markosilla/dib-sw.git;protocol=git;branch=${BRANCH}"
